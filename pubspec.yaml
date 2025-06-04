@@ -7,18 +7,22 @@ homepage: https://softyes.com.br
 repository: https://github.com/ZinChat/zinchat_ui
 
 environment:
-  sdk: ^3.8.0
-  flutter: ^3.32.0
+  sdk: ^3.8.1
+  flutter: ^3.32.1
 
 dependencies:
   flutter:
     sdk: flutter
 
+  google_fonts: ^6.2.1
+  dynamic_color: ^1.7.0
+  solar_icon_pack: ^0.2.1
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
 
-  flutter_lints: ^5.0.0
+  flutter_lints: ^6.0.0
   very_good_analysis: ^8.0.0
 
 flutter:
