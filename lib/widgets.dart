@@ -1,3 +1,4 @@
+export 'widgets/blur_widget.dart';
 export 'widgets/container_widget.dart';
 export 'widgets/icon_button_widget.dart';
 export 'widgets/icon_widget.dart';
