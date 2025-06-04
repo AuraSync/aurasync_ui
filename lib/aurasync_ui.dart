@@ -7,6 +7,7 @@ import 'package:flutter/material.dart';
 
 export 'package:solar_icon_pack/solar_icon_pack.dart';
 
+export 'mixins.dart';
 export 'theme/app_theme.dart';
 
 final class AuraSyncUIApp extends StatelessWidget {
