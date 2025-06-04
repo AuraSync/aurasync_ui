@@ -9,6 +9,7 @@ export 'package:solar_icon_pack/solar_icon_pack.dart';
 
 export 'mixins.dart';
 export 'theme/app_theme.dart';
+export 'widgets.dart';
 
 final class AuraSyncUIApp extends StatelessWidget {
   const AuraSyncUIApp({required this.child, super.key});
