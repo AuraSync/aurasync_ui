@@ -1,7 +1,7 @@
 name: aurasync_ui
 description: "AuraSync connects your Android to your PC or Mac for remote control, mirroring and real-time data exchange via USB or local network."
 
-version: 0.1.0
+version: 0.2.0
 
 homepage: https://softyes.com.br
 repository: https://github.com/ZinChat/zinchat_ui
@@ -23,7 +23,7 @@ dev_dependencies:
     sdk: flutter
 
   flutter_lints: ^6.0.0
-  very_good_analysis: ^8.0.0
+  very_good_analysis: ^9.0.0
 
 flutter:
   uses-material-design: true
