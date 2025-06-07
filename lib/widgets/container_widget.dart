@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 
 final class ContainerWidget extends StatelessWidget with AppThemeMixin {
   const ContainerWidget({
-    required this.child,
     this.clipBehavior = Clip.none,
     this.width,
     this.height,
@@ -11,10 +10,10 @@ final class ContainerWidget extends StatelessWidget with AppThemeMixin {
     this.decoration,
     this.constraints,
     this.alignment,
+    this.child,
     super.key,
   });
 
-  final Widget child;
   final Clip clipBehavior;
   final double? width;
   final double? height;
@@ -22,6 +21,7 @@ final class ContainerWidget extends StatelessWidget with AppThemeMixin {
   final Decoration? decoration;
   final BoxConstraints? constraints;
   final AlignmentGeometry? alignment;
+  final Widget? child;
 
   @override
   Widget build(BuildContext context) {
