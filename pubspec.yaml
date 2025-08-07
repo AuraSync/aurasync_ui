@@ -4,7 +4,7 @@ description: "AuraSync connects your Android to your PC or Mac for remote contro
 version: 0.1.0
 
 homepage: https://softyes.com.br
-repository: https://github.com/ZinChat/zinchat_ui
+repository: https://github.com/AuraSync/aurasync_ui
 
 environment:
   sdk: ^3.8.1
@@ -14,9 +14,12 @@ dependencies:
   flutter:
     sdk: flutter
 
+  lottie: ^3.3.1
   google_fonts: ^6.2.1
   dynamic_color: ^1.7.0
   solar_icon_pack: ^0.2.1
+  aurasync_engine:
+    path: ../aurasync_engine
 
 dev_dependencies:
   flutter_test:
@@ -31,3 +34,4 @@ flutter:
   assets:
     - assets/logo.png
     - assets/placeholder.jpg
+    - assets/lottie/radar.json
