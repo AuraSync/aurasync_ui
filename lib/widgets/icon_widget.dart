@@ -1,3 +1,5 @@
+import 'dart:async';
+
 import 'package:aurasync_ui/mixins/app_theme_mixin.dart';
 import 'package:aurasync_ui/theme/app_theme.dart';
 import 'package:aurasync_ui/widgets/text_widget.dart';
@@ -52,9 +54,8 @@ final class _IconWidgetState extends State<IconWidget>
         end: widget.color,
       ).animate(_controller);
 
-      _controller
-        ..reset()
-        ..forward();
+      _controller.reset();
+      unawaited(_controller.forward());
     }
   }
 
