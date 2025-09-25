@@ -1,11 +1,11 @@
 {
   "makefile.configureOnOpen": false,
-  "dart.flutterSdkPath": ".fvm/versions/stable",
+  "dart.flutterSdkPath": ".fvm/versions/3.35.4",
   "cSpell.words": [
     "aurasync",
     "lottie",
     "pubspec",
     "softyes",
     "webp"
-  ],
+  ]
 }
